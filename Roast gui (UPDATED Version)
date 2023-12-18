@@ -1,4 +1,3 @@
-setclipboard("loadstring(game:HttpGet("https://raw.githubusercontent.com/Sjskdnsidjskfn/Christmas-Special/main/Roast%20gui"))();")
 function Chat(message)
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message , "All")
 end
@@ -19,3 +18,4 @@ end, true)
 Rizz_Main:Button("Roast" , function() 
     Chat(getgenv().line2)
 end)
+
