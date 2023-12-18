@@ -1,3 +1,4 @@
+setclipboard("loadstring(game:HttpGet("https://raw.githubusercontent.com/Sjskdnsidjskfn/Christmas-Special/main/Roast%20gui"))();")
 function Chat(message)
     game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(message , "All")
 end
